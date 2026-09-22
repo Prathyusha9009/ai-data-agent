@@ -1,0 +1,34 @@
+# Python-generated files
+__pycache__/
+*.py[cod]
+
+# Build / packaging
+build/
+dist/
+wheels/
+*.egg-info/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Environment variables / secrets
+.env
+.env.*
+!.env.example
+
+# IDE / editor
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Generated project files
+test_schema_details.txt
+data/extract/
+
+# Logs
+*.log
